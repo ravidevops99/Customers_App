@@ -5,7 +5,7 @@ public class CreateTable {
 
    static final String USER = "root";
    static final String PASS = "1234";
-   static final String DATABASE = "CUSTOMERDB";
+   static final String DATABASE = "CustomerDB";
 
    public static void main(String[] args) {
    Connection conn = null;

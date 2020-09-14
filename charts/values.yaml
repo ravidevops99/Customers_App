@@ -1,5 +1,0 @@
-image.repository: <docker_username>/<docker-image-name>
-image.tag: <docker-image-tag>
-service.internalPort: 6111
-service.externalPort: 6111
-service.nodeport: 31000

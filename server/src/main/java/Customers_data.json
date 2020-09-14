@@ -1,0 +1,26 @@
+{
+"Customers_data":[
+{
+    "name":"Tom Hanks", 
+    "id":"AU10042001",
+    "country-of-birth":"US",
+    "country-of-residence":"SG",
+    "segment":"Retail"
+},
+{
+    "name":"Hanks", 
+    "id":"AU10042002",
+    "country-of-birth":"US",
+    "country-of-residence":"MY",
+    "segment":"Retail"
+},
+{
+    "name":"Tom", 
+    "id":"AU10042003",
+    "country-of-birth":"US",
+    "country-of-residence":"UK",
+    "segment":"Retail"
+}
+
+]
+}

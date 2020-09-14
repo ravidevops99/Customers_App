@@ -21,14 +21,14 @@ public class CreateTable {
       ResultSet rs = stmt.executeQuery(sql);
       while(rs.next()){
          String name = rs.getString("NAME");
-		 int id  = rs.getInt("ID");
+         int id  = rs.getInt("ID");
          String country_of_birth = rs.getString("COUNTRY_OF_BIRTH");
-		 String country_of_residence = rs.getString("COUNTRY_OF_RESIDENCE");
-		 String segment = rs.getString("SEGMENT");
+	 String country_of_residence = rs.getString("COUNTRY_OF_RESIDENCE");
+	 String segment = rs.getString("SEGMENT");
          
 
          System.out.print(", Name: " + name);
-		 System.out.print("ID: " + id);
+	 System.out.print("ID: " + id);
          System.out.print(", COUNTRY_OF_BIRTH: " + country_of_birth);
          System.out.print(", COUNTRY_OF_RESIDENCE: " + country_of_residence);
          System.out.print(", SEGMENT: " + segment);

@@ -25,8 +25,6 @@ public class CreateTable {
          String country_of_birth = rs.getString("COUNTRY_OF_BIRTH");
 	 String country_of_residence = rs.getString("COUNTRY_OF_RESIDENCE");
 	 String segment = rs.getString("SEGMENT");
-         
-
          System.out.print(", Name: " + name);
 	 System.out.print("ID: " + id);
          System.out.print(", COUNTRY_OF_BIRTH: " + country_of_birth);

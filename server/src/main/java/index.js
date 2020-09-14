@@ -9,7 +9,7 @@ var mysqlConnection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '1234',
-    database: 'EmployeeDB',
+    database: 'CustomerDB',
     multipleStatements: true
 });
 

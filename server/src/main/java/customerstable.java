@@ -1,10 +1,11 @@
 import java.sql.*;
 
 public class CreateTable {
-   static final String DB_URL = "jdbc:mysql://localhost:3306/Customers?serverTimezone=UTC";
+   static final String DB_URL = "jdbc:mysql://localhost:3000/Customers?serverTimezone=UTC";
 
    static final String USER = "root";
-   static final String PASS = "";
+   static final String PASS = "1234";
+   static final String DATABASE = "CUSTOMERDB";
 
    public static void main(String[] args) {
    Connection conn = null;
@@ -12,7 +13,7 @@ public class CreateTable {
 
    try{
       System.out.println("Connecting to database...");
-      conn = DriverManager.getConnection(DB_URL, USER,PASS);
+      conn = DriverManager.getConnection(DB_URL, USER,PASS,DATABASE);
       System.out.println("Creating statement...");
       stmt = conn.createStatement();
       String sql;
